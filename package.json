@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel public/index.html --out-dir development -p 3000",
-    "pre-deploy": "parcel build public/index.html --out-dir dist --public-url ./",
-    "deploy": "node publish.js"
+    "build": "parcel build public/index.html --out-dir dist --public-url /rising"
   },
   "repository": {
     "type": "git",
