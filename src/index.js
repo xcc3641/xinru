@@ -48,7 +48,7 @@ function setMusic(song) {
   const songFile = song.file;
   const songUrl = song.url;
 
-  const songPath = "/music/";
+  const songPath = window.location.pathname + "music/";
 
   const audioPlayer = document.querySelector("#music");
   const songLabel = document.querySelector(".song-label");
