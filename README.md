@@ -1,6 +1,6 @@
 ## What is it?
 
-A sample portfolio example using a minimal animation.
+A sample portfolio example using a minimal animation that is based on rects rising from the bottom.
 
 <p align="center">
   <kbd>
