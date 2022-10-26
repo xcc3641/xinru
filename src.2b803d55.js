@@ -3313,7 +3313,7 @@ function setMusic(song) {
   var songName = song.name;
   var songFile = song.file;
   var songUrl = song.url;
-  var songPath = "/music/";
+  var songPath = window.location.pathname + "music/";
   var audioPlayer = document.querySelector("#music");
   var songLabel = document.querySelector(".song-label");
   audioPlayer.setAttribute("src", songPath + songFile);
@@ -3370,4 +3370,4 @@ function enableBackground(selector, size, maxCount, color) {
   animation.start();
 }
 },{"@babel/runtime-corejs2/core-js/object/keys":"d81a","@babel/runtime-corejs2/core-js/object/get-own-property-symbols":"DovH","@babel/runtime-corejs2/core-js/object/get-own-property-descriptor":"mQ9c","@babel/runtime-corejs2/core-js/object/get-own-property-descriptors":"Hv1v","@babel/runtime-corejs2/core-js/object/define-properties":"CpmN","@babel/runtime-corejs2/core-js/object/define-property":"eIqn","@babel/runtime-corejs2/helpers/defineProperty":"n5FU","@babel/runtime-corejs2/helpers/asyncToGenerator":"OYLD","@babel/runtime-corejs2/regenerator":"i9LV","./components/canvas":"oJ6W","./components/viewport":"JFRn","./components/animation":"RZmY","./components/constants":"qArD","./components/stateManager":"mWYi","./components/stars":"pMrq","../site.config.json":"JCqW","./components/utils":"tKBt"}]},{},["uBxZ"], null)
-//# sourceMappingURL=/rising/src.0797ff46.js.map
+//# sourceMappingURL=/rising/src.2b803d55.js.map
