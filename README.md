@@ -30,9 +30,9 @@ This animation is built in HTML5 Canvas Engine and Factory Functions Pattern!
   Open Source
 </h2>
 <p align="center">
-  <sub>Copyright © 2020-present, Laks Castro.</sub>
+  <sub>Copyright © 2020-present, Alex Rintt.</sub>
 </p>
-<p align="center">This portfolio <a href="https://github.com/LaksCastro/endless-gradients/blob/master/LICENSE.md">is MIT licensed 💖</a></p>
+<p align="center">This portfolio <a href="./LICENSE">is MIT licensed 💖</a></p>
 <p align="center">
   <img src="./src/assets/images/logo.png" width="35" />
 </p>
