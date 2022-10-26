@@ -1,30 +1,26 @@
+## What is it?
+
+A sample portfolio example using a minimal animation.
+
 <p align="center">
-  <img src="./src/assets/images/logo.png" width="150">
-  <h1 align="center">Portfolio</h1>
-  <p align="center">This a repository that manage portfolio code, feel free to use as way that you want! :)</p>
-  <p align="center">
-    <img src="https://img.shields.io/badge/type-portfolio-success" alt="Project Type" />
-    <img src="https://img.shields.io/badge/bundler-parcel-orange" alt="Repo Type" />
-    <img src="https://img.shields.io/badge/language-javascript-yellow" alt="Repo Main Language" />
-    <img src="https://img.shields.io/badge/platform-web-orange" alt="Project Platform" />
-  </p>
-  <p align="center">
-    <a href="https://www.linkedin.com/in/lakscastro" target="_blank">
-      <img src="https://img.shields.io/twitter/url?label=Connect%20%40LaksCastro&logo=linkedin&url=https%3A%2F%2Fwww.twitter.com%2Flakscastro%2F" alt="Follow" />
-    </a>
-  </p>
+  <kbd>
+    <img src="https://user-images.githubusercontent.com/51419598/198080570-97d11099-1e10-471b-b98e-4081d622c4ac.gif" height="300">
+  </kbd>
 </p>
 
-## What is?
-A small portfolio using HTML, CSS and Javascript, [you can check it out here](https://lakscastro.github.io/)
+## Backstory
 
-## Animation
-This animation is built in HTML5 Canvas Engine and Factory Functions Pattern!
+Back the old days I did this animation for testing purposes, but since I liked that animation I didn't delete it. And someone opened an issue [alexrintt/alexrintt.github.io/issues/4](https://github.com/alexrintt/alexrintt.github.io/issues/4) asking about this particular animation, so here we are.
+
+I'm also working on this discussion that will explain the logic step-by-step so you can reproduce in any other platform.
+
+I also created a p5.js sketch, so you can edit the code + see the effects, it's available at [p5js.org/alexrintt/rising](https://editor.p5js.org/alexrintt/full/JMamwM8a_).
+
+The animation itself is pretty simple, it uses  plain geometry, that one you learn from elementary school.
 
 <br>
-<br>
-<br>
-<br>
+
+<samp>
 
 <h2 align="center">
   Open Source
@@ -36,3 +32,5 @@ This animation is built in HTML5 Canvas Engine and Factory Functions Pattern!
 <p align="center">
   <img src="./src/assets/images/logo.png" width="35" />
 </p>
+
+</samp>
