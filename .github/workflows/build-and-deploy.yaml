@@ -2,7 +2,7 @@ name: Build and publish website to GitHub pages
 
 on:
   push:
-    branches: ["master"]
+    branches: ["2022"]
   workflow_dispatch:
 
 jobs:
