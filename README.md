@@ -53,6 +53,10 @@ npm run build
 yarn build
 ```
 
+Video following these steps:
+
+https://user-images.githubusercontent.com/51419598/199149013-c3126cba-f741-4b45-9028-fc0cac9c6d0f.mp4
+
 <br>
 
 <samp>
