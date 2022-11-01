@@ -18,6 +18,41 @@ I also created a p5.js sketch, so you can edit the code + see the effects, it's 
 
 The animation itself is pretty simple, it uses  plain geometry, that one you learn from elementary school.
 
+## Running locally
+
+Runtime environment:
+
+```shell
+NodeJS v16.16.0
+```
+
+Install dependencies:
+
+```shell
+npm install
+# or
+yarn install
+```
+
+Start development server:
+
+```shell
+npm run dev
+# or
+yarn dev
+```
+
+Generate production build:
+
+> **Warning** update the public url in the `package.json` build script before generating your build.
+> The website of this repository was deployed under alexrintt.io/rising, if you want to deploy to yourdomain.com you need to set the public path url to "/".
+
+```shell
+npm run build
+# or
+yarn build
+```
+
 <br>
 
 <samp>
