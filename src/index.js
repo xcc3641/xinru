@@ -59,7 +59,7 @@ function setMusic(song) {
   const songLabel = document.querySelector(".song-label");
 
   audioPlayer.setAttribute("src", songPath + songFile);
-  songLabel.setAttribute("href", songUrl);
+  // songLabel.setAttribute("href", songUrl);
 
   songLabel.innerText += songName;
 }
