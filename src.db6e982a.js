@@ -3242,7 +3242,7 @@ function Stars() {
 },{"@babel/runtime-corejs2/core-js/array/from":"ybNn","@babel/runtime-corejs2/core-js/object/freeze":"LJ37","./utils":"tKBt"}],"JCqW":[function(require,module,exports) {
 module.exports = {
   "username": "theasun",
-  "repo": "https://weibo.com/u/5030125235",
+  "repo": "",
   "ocupation": "",
   "title": "Thea Sun",
   "bio": "Smile",
@@ -3252,20 +3252,17 @@ module.exports = {
   "song": {
     "file": "Terry Callier - Paris Blues.mp3",
     "name": "Terry Callier - Paris Blues",
-    "url": "https://music.163.com/song?id=21802719&userid=49345714"
+    "url": ""
   },
   "birth": [{
-    "title": "关于相片。",
-    "content": "在国庆回班后同事问了我游玩摄影情况，推荐我可以挑选一张打印试试，我顺势给了一张我个人觉得很艺术的照片——妡邚穿着红色高跟鞋和一片落叶站在一块光里。"
+    "title": "",
+    "content": "把发热的面颊，\n埋在柔软的积雪里一般，\n想那么恋爱一下看看。"
   }, {
-    "title": "关于吹风机。",
-    "content": "抱住妡邚的时候，像埋进一团柔软的雪。\n\n雪是静谧的，戴森据说噪音小，握感舒适，也有智能温控，再者我也很享受给妡邚吹头发的时候。\n所以想以此为礼物赠送。"
+    "title": "",
+    "content": "筱悬木的叶子落下来触着了我，\n以为是记忆里的那个接吻，\n吃了一惊。"
   }, {
-    "title": "关于送出。",
-    "content": "11.4日是周五，我想周四大概23点50分时用另外一个手机号码模拟下顺丰快递的信息。时间点确实比较晚，但我觉得如果不这样做意义并没有多大，所以这样一个异步且不会打照面的方式，应该可以让妡邚能够感受安全和合适。\n\n基于此，把礼物放到她的门口，我发了信息稍微等等，如果没有回，我就打个电话，她知晓后我再打车回家就好。"
-  }, {
-    "title": "其他。",
-    "content": "上网买了礼物包装纸，一个绿色和红色。红色用来包装相框和妡邚喜欢的红色高跟鞋搭配，绿色用来包装戴森，这个颜色恰好是我喜欢而已。\n\n后来预想了下包装好了后可能有点单调，想再贴个花，当然首选妡邚最喜欢的红玫瑰，但我觉得时间还充裕，花店直接买差点意思，索性自己先买几株算好时间提前养好，等花醒了花开满了，用双面贴贴在礼物盒子上，另一面是花束落下的叶子。"
+    "title": "",
+    "content": "我记起了那个女人，\n有一年盂兰会的时候她说：\n借给你衣服，来跳舞吧。"
   }, {
     "title": "2022.11.04",
     "content": "🌹\n\n生日快乐。\n小美。"
@@ -3350,7 +3347,8 @@ function setMusic(song) {
   var audioPlayer = document.querySelector("#music");
   var songLabel = document.querySelector(".song-label");
   audioPlayer.setAttribute("src", songPath + songFile);
-  songLabel.setAttribute("href", songUrl);
+  // songLabel.setAttribute("href", songUrl);
+
   songLabel.innerText += songName;
 }
 function getRgbaFromAny(color, alpha) {
@@ -3460,4 +3458,4 @@ function initToogleNext() {
   };
 }
 },{"@babel/runtime-corejs2/core-js/object/keys":"d81a","@babel/runtime-corejs2/core-js/object/get-own-property-symbols":"DovH","@babel/runtime-corejs2/core-js/object/get-own-property-descriptor":"mQ9c","@babel/runtime-corejs2/core-js/object/get-own-property-descriptors":"Hv1v","@babel/runtime-corejs2/core-js/object/define-properties":"CpmN","@babel/runtime-corejs2/core-js/object/define-property":"eIqn","@babel/runtime-corejs2/helpers/defineProperty":"n5FU","@babel/runtime-corejs2/helpers/asyncToGenerator":"OYLD","@babel/runtime-corejs2/regenerator":"i9LV","./components/canvas":"oJ6W","./components/viewport":"JFRn","./components/animation":"RZmY","./components/constants":"qArD","./components/stateManager":"mWYi","./components/stars":"pMrq","../site.config.json":"JCqW","./components/utils":"tKBt"}]},{},["uBxZ"], null)
-//# sourceMappingURL=/xinru/src.9b5b29a3.js.map
+//# sourceMappingURL=/xinru/src.db6e982a.js.map
